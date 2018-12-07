@@ -1524,6 +1524,10 @@
         "source": "/home/alif/Documents/Android/TemukanTempat/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
+        "merged": "/home/alif/Documents/Android/TemukanTempat/app/build/intermediates/res/merged/debug/drawable_ripple_ungu.xml.flat",
+        "source": "/home/alif/Documents/Android/TemukanTempat/app/src/main/res/drawable/ripple_ungu.xml"
+    },
+    {
         "merged": "/home/alif/Documents/Android/TemukanTempat/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
         "source": "/home/alif/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/16a9f98d163c91798f399236f4743485/res/drawable-hdpi-v4/abc_switch_track_mtrl_alpha.9.png"
     },

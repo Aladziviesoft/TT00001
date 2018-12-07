@@ -41,58 +41,103 @@
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-        <android.support.v7.widget.CardView
-            android:layout_margin="5dp"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:cardElevation="4dp"
-            >
+            android:orientation="vertical">
 
-            <LinearLayout
-                android:padding="5dp"
+            <android.support.v7.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/namatempat"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                android:layout_margin="5dp"
+                app:cardElevation="4dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
-
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/jambuka" />
-
-                    <RatingBar
-                        android:id="@+id/ratingBar"
-                        style="@style/Widget.AppCompat.RatingBar.Small"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:isIndicator="true"
-                        android:numStars="5"
-                        android:rating="4"
-                        android:stepSize="1.0"
-                        android:theme="@style/RatingBar" />
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="5dp">
 
                     <TextView
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/rate" />
+                        android:text="@string/namatempat"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/jambuka" />
+
+                        <RatingBar
+                            android:id="@+id/ratingBar"
+                            style="@style/Widget.AppCompat.RatingBar.Small"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:isIndicator="true"
+                            android:numStars="5"
+                            android:rating="4"
+                            android:stepSize="1.0"
+                            android:theme="@style/RatingBar" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/rate" />
+                    </LinearLayout>
+
                 </LinearLayout>
 
-            </LinearLayout>
+            </android.support.v7.widget.CardView>
 
-        </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="@string/deskripsi" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/indigo" />
+
+                    <TextView
+                        android:id="@+id/txDeskripsi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="@string/textcontoh" />
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <Button
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:id="@+id/btPergi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pergi" />
+        </LinearLayout>
+
 
     </android.support.v4.widget.NestedScrollView>
 
@@ -101,8 +146,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        app:layout_anchor="@id/appbar"
         android:theme="@style/FloatingAction"
+        app:layout_anchor="@id/appbar"
         app:layout_anchorGravity="bottom|right|end"
         app:srcCompat="@drawable/ic_navigation" />
 
