@@ -4,12 +4,12 @@
         "source": "/home/alif/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/16a9f98d163c91798f399236f4743485/res/drawable-ldrtl-xxxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
     },
     {
-        "merged": "/home/alif/Documents/Android/TemukanTempat/app/build/intermediates/res/merged/debug/layout_activity_tambah_tempat.xml.flat",
-        "source": "/home/alif/Documents/Android/TemukanTempat/app/src/main/res/layout/activity_tambah_tempat.xml"
-    },
-    {
         "merged": "/home/alif/Documents/Android/TemukanTempat/app/build/intermediates/res/merged/debug/drawable-xhdpi_masjid.png.flat",
         "source": "/home/alif/Documents/Android/TemukanTempat/app/src/main/res/drawable-xhdpi/masjid.png"
+    },
+    {
+        "merged": "/home/alif/Documents/Android/TemukanTempat/app/build/intermediates/res/merged/debug/layout_activity_tambah_tempat.xml.flat",
+        "source": "/home/alif/Documents/Android/TemukanTempat/app/src/main/res/layout/activity_tambah_tempat.xml"
     },
     {
         "merged": "/home/alif/Documents/Android/TemukanTempat/app/build/intermediates/res/merged/debug/layout_abc_popup_menu_item_layout.xml.flat",
@@ -112,12 +112,12 @@
         "source": "/home/alif/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/16a9f98d163c91798f399236f4743485/res/layout-watch-v20/abc_alert_dialog_title_material.xml"
     },
     {
-        "merged": "/home/alif/Documents/Android/TemukanTempat/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_about_ic.png.flat",
-        "source": "/home/alif/Documents/Android/TemukanTempat/app/src/main/res/drawable-xxxhdpi/about_ic.png"
-    },
-    {
         "merged": "/home/alif/Documents/Android/TemukanTempat/app/build/intermediates/res/merged/debug/anim_design_snackbar_out.xml.flat",
         "source": "/home/alif/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/3a7f9796df0931dd7f859d6dd618de45/res/anim/design_snackbar_out.xml"
+    },
+    {
+        "merged": "/home/alif/Documents/Android/TemukanTempat/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_about_ic.png.flat",
+        "source": "/home/alif/Documents/Android/TemukanTempat/app/src/main/res/drawable-xxxhdpi/about_ic.png"
     },
     {
         "merged": "/home/alif/Documents/Android/TemukanTempat/app/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -168,12 +168,12 @@
         "source": "/home/alif/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/16a9f98d163c91798f399236f4743485/res/drawable-v21/abc_btn_colored_material.xml"
     },
     {
-        "merged": "/home/alif/Documents/Android/TemukanTempat/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
-        "source": "/home/alif/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/16a9f98d163c91798f399236f4743485/res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_015.png"
-    },
-    {
         "merged": "/home/alif/Documents/Android/TemukanTempat/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxxhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "/home/alif/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/16a9f98d163c91798f399236f4743485/res/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/alif/Documents/Android/TemukanTempat/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
+        "source": "/home/alif/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/16a9f98d163c91798f399236f4743485/res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_015.png"
     },
     {
         "merged": "/home/alif/Documents/Android/TemukanTempat/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_navigation.png.flat",
@@ -304,12 +304,12 @@
         "source": "/home/alif/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/16a9f98d163c91798f399236f4743485/res/drawable-mdpi-v4/abc_list_focused_holo.9.png"
     },
     {
-        "merged": "/home/alif/Documents/Android/TemukanTempat/app/build/intermediates/res/merged/debug/drawable-mdpi_user_ic.png.flat",
-        "source": "/home/alif/Documents/Android/TemukanTempat/app/src/main/res/drawable-mdpi/user_ic.png"
-    },
-    {
         "merged": "/home/alif/Documents/Android/TemukanTempat/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_user_ic.png.flat",
         "source": "/home/alif/Documents/Android/TemukanTempat/app/src/main/res/drawable-xxxhdpi/user_ic.png"
+    },
+    {
+        "merged": "/home/alif/Documents/Android/TemukanTempat/app/build/intermediates/res/merged/debug/drawable-mdpi_user_ic.png.flat",
+        "source": "/home/alif/Documents/Android/TemukanTempat/app/src/main/res/drawable-mdpi/user_ic.png"
     },
     {
         "merged": "/home/alif/Documents/Android/TemukanTempat/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_about.png.flat",
@@ -2110,6 +2110,10 @@
     {
         "merged": "/home/alif/Documents/Android/TemukanTempat/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_new.png.flat",
         "source": "/home/alif/Documents/Android/TemukanTempat/app/src/main/res/mipmap-mdpi/ic_launcher_new.png"
+    },
+    {
+        "merged": "/home/alif/Documents/Android/TemukanTempat/app/build/intermediates/res/merged/debug/drawable_front.jpg.flat",
+        "source": "/home/alif/Documents/Android/TemukanTempat/app/src/main/res/drawable/front.jpg"
     },
     {
         "merged": "/home/alif/Documents/Android/TemukanTempat/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",

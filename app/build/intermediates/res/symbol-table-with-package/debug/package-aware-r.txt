@@ -1012,6 +1012,7 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable find_launcher_new
+drawable front
 drawable home_ic
 drawable ic_about
 drawable ic_account
@@ -1095,7 +1096,9 @@ id beginning
 id blocking
 id bottom
 id btEdit
+id btLogin
 id btPergi
+id btRegistrasi
 id btSimpan
 id buttonPanel
 id cardview

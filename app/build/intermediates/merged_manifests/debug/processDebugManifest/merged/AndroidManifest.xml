@@ -20,7 +20,9 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.aladziviesoft.temukantempat.MainActivity" />
+        <activity
+            android:name="com.aladziviesoft.temukantempat.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar.CollapsingToolbar" />
         <activity
             android:name="com.aladziviesoft.temukantempat.SplashScreen"
             android:noHistory="true"

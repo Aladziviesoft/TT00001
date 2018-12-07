@@ -28,11 +28,15 @@
         android:paddingRight="20dp">
 
         <Button
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:id="@+id/btLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/login" />
 
         <Button
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:id="@+id/btRegistrasi"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/registrasi" />

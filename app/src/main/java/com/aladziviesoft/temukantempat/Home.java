@@ -3,11 +3,15 @@ package com.aladziviesoft.temukantempat;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
+import android.support.design.widget.AppBarLayout;
+import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.Toolbar;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -29,6 +33,12 @@ public class Home extends Fragment {
     FragmentActivity mActivity;
     DashAdapter adapter;
     ArrayList<DashModel> arrayList = new ArrayList<>();
+    @BindView(R.id.toolbar)
+    Toolbar toolbar;
+    @BindView(R.id.collapsing)
+    CollapsingToolbarLayout collapsing;
+    @BindView(R.id.appbar)
+    AppBarLayout appbar;
 
     @Nullable
     @Override
@@ -46,6 +56,9 @@ public class Home extends Fragment {
         recMenu.setAdapter(adapter);
 
         setMenu();
+
+        collapsing.setExpandedTitleGravity(Gravity.BOTTOM);
+        collapsing.setExpandedTitleColor(getResources().getColor(android.R.color.transparent));
 
         return view;
 
