@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#008577</color>-->
+    <!--<color name="colorPrimaryDark">#00574B</color>-->
+
+    <color name="colorPrimary">#3E385B</color>
+    <color name="colorPrimaryDark">#FF3E3851</color>
+    <color name="colorAccent">#3E385B</color>
+    <color name="borderColor">#D6CFCFCF</color>
+    <color name="indigo">#9933ff</color>
+    <color name="pink">#ff99ff</color>
+    <color name="yellow">#ffcc00</color>
+    <color name="dongker">#3E385B</color>
+    <color name="dongker1">#FF3E3851</color>
+</resources>

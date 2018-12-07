@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Temukan Tempat</string>
+    <string name="splashscreen">Splash Screen</string>
+    <string name="home">Home</string>
+    <string name="me">You</string>
+    <string name="about">About</string>
+    <string name="andabelumlogin">Anda belum login, silahkan Login terlebih dahulu</string>
+    <string name="login">Login</string>
+    <string name="registrasi">Registrasi</string>
+    <string name="copyright">copyright - aladziviesoft.com</string>
+    <string name="keterangan">Aplikasi Temukan Tempat ini kami bangun dengan harapan bisa membantu <i><b>SobatPlace</b></i> sekalian untuk menemukan tempat yang ingin cari secara rinci, beda dengan Google Maps, aplikasi ini lebih spesifik dalam tempat. Jadi apa yang menjadi kebutuhan hari hari <i><b>SobatPlace</b></i> sekalian bisa terbantu dalam mencari tempat yang dibutuhkan.</string>
+    <string name="namatempat">Nama Tempat</string>
+    <string name="latitude">Latitude</string>
+    <string name="Longitude">Longitude</string>
+    <string name="keteranganTempat">Keterangan</string>
+    <string name="jambuka">Jam Buka</string>
+    <string name="jamtutup">Jam Tutup</string>
+    <string name="fotolokasi">Foto Lokasi</string>
+    <string name="explore">Explore</string>
+    <string name="take">Take Image</string>
+    <string name="simpan">Simpan</string>
+    <string name="edit">Edit</string>
+    <string name="rate">Rate :</string>
+</resources>
