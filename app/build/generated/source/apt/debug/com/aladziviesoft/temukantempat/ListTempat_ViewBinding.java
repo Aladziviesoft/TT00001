@@ -5,6 +5,7 @@ import android.support.annotation.CallSuper;
 import android.support.annotation.UiThread;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 import butterknife.Unbinder;
 import butterknife.internal.Utils;
@@ -25,6 +26,7 @@ public class ListTempat_ViewBinding implements Unbinder {
 
     target.recDataTempat = Utils.findRequiredViewAsType(source, R.id.recDataTempat, "field 'recDataTempat'", RecyclerView.class);
     target.Swipe = Utils.findRequiredViewAsType(source, R.id.Swipe, "field 'Swipe'", SwipeRefreshLayout.class);
+    target.toolbar = Utils.findRequiredViewAsType(source, R.id.toolbar, "field 'toolbar'", Toolbar.class);
   }
 
   @Override
@@ -36,5 +38,6 @@ public class ListTempat_ViewBinding implements Unbinder {
 
     target.recDataTempat = null;
     target.Swipe = null;
+    target.toolbar = null;
   }
 }

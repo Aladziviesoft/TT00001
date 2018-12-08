@@ -1461,6 +1461,7 @@ style Animation_Design_BottomSheetDialog
 style AppTheme
 style AppTheme_NoActionBar
 style AppTheme_NoActionBar_CollapsingToolbar
+style AppTheme_NoActionBar_ListData
 style Base_AlertDialog_AppCompat
 style Base_AlertDialog_AppCompat_Light
 style Base_Animation_AppCompat_Dialog

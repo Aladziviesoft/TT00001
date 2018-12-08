@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.aladziviesoft.temukantempat">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -13,8 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".MainActivity"
-            android:theme="@style/AppTheme.NoActionBar.CollapsingToolbar"/>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar.CollapsingToolbar" />
         <activity
             android:name=".SplashScreen"
             android:noHistory="true"
@@ -27,9 +28,14 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".TambahTempat" />
-        <activity android:name=".ListTempat" />
-        <activity android:name=".DetailTempat"
+        <activity
+            android:name=".TambahTempat"
+            android:theme="@style/AppTheme.NoActionBar.ListData" />
+        <activity
+            android:name=".ListTempat"
+            android:theme="@style/AppTheme.NoActionBar.ListData" />
+        <activity
+            android:name=".DetailTempat"
             android:theme="@style/AppTheme.NoActionBar.CollapsingToolbar">
 
         </activity>

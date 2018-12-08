@@ -34,8 +34,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.aladziviesoft.temukantempat.TambahTempat" />
-        <activity android:name="com.aladziviesoft.temukantempat.ListTempat" />
+        <activity
+            android:name="com.aladziviesoft.temukantempat.TambahTempat"
+            android:theme="@style/AppTheme.NoActionBar.ListData" />
+        <activity
+            android:name="com.aladziviesoft.temukantempat.ListTempat"
+            android:theme="@style/AppTheme.NoActionBar.ListData" />
         <activity
             android:name="com.aladziviesoft.temukantempat.DetailTempat"
             android:theme="@style/AppTheme.NoActionBar.CollapsingToolbar" >

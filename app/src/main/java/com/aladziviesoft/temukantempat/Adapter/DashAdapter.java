@@ -66,6 +66,7 @@ public class DashAdapter extends RecyclerView.Adapter<DashAdapter.DashHolder> {
                                 colors[0] = "List Data";
 //                                GlobalToast.ShowToast(context, "Button Active!");
                                 intent = new Intent(context, ListTempat.class);
+                                intent.putExtra("title", models.get(i).getNama());
                                 context.startActivity(intent);
 //                                Intent intent = new Intent(context, TambahActivity.class);
 //                                String id = arrayList.get(position).getId();
@@ -85,6 +86,7 @@ public class DashAdapter extends RecyclerView.Adapter<DashAdapter.DashHolder> {
 //                                GlobalToast.ShowToast(context, "Button Active!");
 //                                Delete(arrayList.get(position).getId());
                                 intent = new Intent(context, TambahTempat.class);
+                                intent.putExtra("title", models.get(i).getNama());
                                 context.startActivity(intent);
                                 break;
 
