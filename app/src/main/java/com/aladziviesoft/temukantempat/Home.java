@@ -1,12 +1,14 @@
 package com.aladziviesoft.temukantempat;
 
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.design.widget.AppBarLayout;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
+import android.support.v4.view.ViewPager;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -15,9 +17,12 @@ import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 
 import com.aladziviesoft.temukantempat.Adapter.DashAdapter;
+import com.aladziviesoft.temukantempat.Adapter.SlidePageAdapter;
 import com.aladziviesoft.temukantempat.Model.DashModel;
+import com.viewpagerindicator.CirclePageIndicator;
 
 import java.util.ArrayList;
 
@@ -39,6 +44,16 @@ public class Home extends Fragment {
     CollapsingToolbarLayout collapsing;
     @BindView(R.id.appbar)
     AppBarLayout appbar;
+    @BindView(R.id.vpSlide)
+    ViewPager vpSlide;
+    @BindView(R.id.cpIndicator)
+    CirclePageIndicator cpIndicator;
+    @BindView(R.id.lyIndicator)
+    LinearLayout lyIndicator;
+    private Handler handler;
+    private int slidePage;
+    private ArrayList<Integer> slideList;
+    private int SLIDE_DELAY = 5000;
 
     @Nullable
     @Override
@@ -46,6 +61,20 @@ public class Home extends Fragment {
         View view = inflater.inflate(R.layout.activity_home, container, false);
         unbinder = ButterKnife.bind(this, view);
         mActivity = getActivity();
+
+        slidePage = 0;
+        handler = new Handler();
+        slideList = new ArrayList<>();
+        slideList.add(R.drawable.slider1);
+        slideList.add(R.drawable.slider2);
+        slideList.add(R.drawable.slider3);
+
+        SlidePageAdapter slidePageAdapter = new SlidePageAdapter(mActivity, slideList);
+        vpSlide.setAdapter(slidePageAdapter);
+
+        cpIndicator.setCentered(true);
+        cpIndicator.setViewPager(vpSlide);
+        handler.post(runnable);
 
         recMenu.setHasFixedSize(true);
 
@@ -63,6 +92,29 @@ public class Home extends Fragment {
         return view;
 
     }
+
+    private Runnable runnable = new Runnable() {
+        public void run() {
+            vpSlide.setCurrentItem(slidePage, true);
+
+            if (slideList.size() == (slidePage + 1)) {
+                slidePage = 0;
+            } else {
+                slidePage++;
+            }
+            handler.postDelayed(runnable, SLIDE_DELAY);
+        }
+    };
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+
+        if (handler != null) {
+            handler.removeCallbacks(runnable);
+        }
+    }
+
 
     private void setMenu() {
         arrayList.add(new DashModel(R.drawable.tukang_jahit, "Tempat Jahit"));

@@ -18,12 +18,44 @@
             android:id="@+id/collapsing"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:title="@string/app_name"
-            android:background="@drawable/front"
             app:contentScrim="?attr/colorPrimary"
             app:expandedTitleMarginEnd="64dp"
             app:expandedTitleMarginStart="48dp"
-            app:layout_scrollFlags="exitUntilCollapsed|scroll">
+            app:layout_scrollFlags="exitUntilCollapsed|scroll"
+            app:title="@string/app_name">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/vpSlide"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <LinearLayout
+                    android:id="@+id/lyIndicator"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+
+                    <com.viewpagerindicator.CirclePageIndicator
+                        android:id="@+id/cpIndicator"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dip"
+                        app:fillColor="@color/colorPrimaryDark"
+                        app:pageColor="@android:color/white"
+                        app:radius="4dp"
+                        app:strokeColor="@color/colorPrimaryDark"
+                        app:strokeWidth="1dp" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
 
             <android.support.v7.widget.Toolbar
                 android:id="@+id/toolbar"

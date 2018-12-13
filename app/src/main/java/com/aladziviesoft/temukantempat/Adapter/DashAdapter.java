@@ -14,6 +14,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.aladziviesoft.temukantempat.ListTempat;
+import com.aladziviesoft.temukantempat.MapsActivity;
 import com.aladziviesoft.temukantempat.Model.DashModel;
 import com.aladziviesoft.temukantempat.R;
 import com.aladziviesoft.temukantempat.TambahTempat;
@@ -78,6 +79,8 @@ public class DashAdapter extends RecyclerView.Adapter<DashAdapter.DashHolder> {
                             case 1:
                                 colors[1] = "Lihat Maps";
                                 GlobalToast.ShowToast(context, "Button Active!");
+                                intent = new Intent(context, MapsActivity.class);
+                                context.startActivity(intent);
 //                                Delete(arrayList.get(position).getId());
                                 break;
 

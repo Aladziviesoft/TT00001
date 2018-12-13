@@ -24,4 +24,33 @@
     <string name="deskripsi">Deskripsi Tempat</string>
     <string name="textcontoh">Raja Ampat archipelago is known as a standout amongst the most excellent jumping place on the planet due to the magnificence of its submerged life. The archipelago, which is situated in West Papua, has 610 islands encompassed by enormously clear waters and occupied by a quarter of marine creature species that exist on the planet.  In light of its excellence, this spot turns into a shelter for nautical tourism beaus furthermore as a goliath whale shark environment. Besides, it has a manta point jump that is, a spot for jumpers to swim with titan manta beam that its wings achieves 9 meters in length. We can likewise discover wrecks and airplane from World War II utilized as a living space of elaborate fish and bright anemones.</string>
     <string name="pergi">Pergi ke tempat ini</string>
+    <!--  Strings LoginActivity  -->
+    <string name="userlogin">Username</string>
+    <string name="passlogin">Password</string>
+    <!--  Stings daftar  -->
+    <string name="namauser">Nama</string>
+    <string name="userregis">Username</string>
+    <string name="passregis">Password</string>
+    <string name="pekerjaan">Pekerjaan</string>
+    <string name="nohp">No. Telp/Handphone</string>
+    <string name="alamat">Alamat</string>
+    <string name="jenisk">Jenis Kelamin</string>
+    <string name="daftar">Daftar/Register</string>
+    <string name="back">Kembali</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="admin">A D M I N</string>
+    <string name="iqbal">Mohammad Iqbal Maulana</string>
+    <string name="nol">082232803556</string>
+    <string name="umur">Usia</string>
+    <string name="hp">No HP</string>
+    <string name="listkontribusi">List Kontribusi Anda</string>
+    <string name="masukan">Masukan tentang aplikasi</string>
+    <string name="editdata">Edit Data Anda</string>
+    <string name="masukan_text">Text Masukan</string>
+    <string name="kirim">Kirim</string>
+    <string name="isikan">Masukkan kritik dan saran yang membangun.....</string>
+    <string name="masukan_fb">Media sosial kini tak hanya berfungsi sebagai sarana untuk terhubung orang lain di dunia maya, tetapi juga sebagai tempat untuk membangun komunitas. Di Facebook misalnya, kamu akan bertemu berbagai jenis orang, mulai dari si pembuat kata-kata bijak, si tukang jualan sampai tukang bikin provokasi.</string>
+    <string name="riwayatmasukan">Riwayat masukan yang anda berikan : </string>
+    <string name="close">Close</string>
+    <string name="logout">Keluar akun</string>
 </resources>
